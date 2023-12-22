@@ -9,6 +9,7 @@ topics:
   - "expressroute"
 published: true
 published_at: "2023-12-22 11:42"
+publication_name: "microsoft"
 ---
 
 # ExpressRoute / Azure Peering Service は気軽に使えない？
