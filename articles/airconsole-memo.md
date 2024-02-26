@@ -3,7 +3,7 @@ title: "AirConsole の使い方メモ"
 emoji: "📝"
 type: "tech"
 topics: [AirConsole, Console, Gadget]
-published: false
+published: true
 ---
 ## Wi-Fi
 
