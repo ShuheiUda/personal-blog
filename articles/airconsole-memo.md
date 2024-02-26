@@ -10,7 +10,7 @@ published: true
 * SSID: AirConsole-XX
 * Password: 12345678
 
-※ 技適はとっていないと思われるので、[技適の特例申請](https://www.tele.soumu.go.jp/j/sys/others/exp-sp/) をするか、電波暗室で。
+※ 技適はとっていないと思われるので、Wi-Fi / Bluetooth を無効化するまでの初期設定時は [技適の特例申請](https://www.tele.soumu.go.jp/j/sys/others/exp-sp/) をするか、電波暗室で。
 
 ## Web Console
 
