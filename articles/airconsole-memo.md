@@ -20,8 +20,9 @@ published: true
 
 ## SSH to Serial Port
 
-* Enable SSH to serial port にチェックを入れて、ポートを設定
+* 事前に Enable SSH to serial port にチェックを入れて、ポート番号を設定 (既定だと 4001)
 * SSH で接続する際のユーザー名を admin:1, admin:2 のように入力することで、直接コンソールアクセスが可能
+* 例: ssh admin:1@192.168.10.1
 
 ## 参考
 
