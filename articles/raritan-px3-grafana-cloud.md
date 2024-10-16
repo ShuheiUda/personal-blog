@@ -18,8 +18,8 @@ published: true
 1. [Grafana Agent Flow](https://github.com/grafana/agent/releases/latest) から grafana-agent-flow-installer.exe.zip (grafana-agent-installer.exe.zip ではないので注意) をダウンロードして、インストール
 
 2. Grafana Cloud 側で Home > Connections > Add new connection > Hosted Prometheus metrics から API token を作成
-![Alt text](/images/raritan-px3-grafana-cloud-1.png)
-![Alt text](/images/raritan-px3-grafana-cloud-2.png)
+![Alt text](/images/raritan-px3-grafana-cloud/1.png)
+![Alt text](/images/raritan-px3-grafana-cloud/2.png)
 
 3. "C:\Program Files\Grafana Agent Flow\config.river" を編集
 
@@ -73,8 +73,8 @@ prometheus.scrape "PDU" {
 ${__field.labels.pduname}
 ```
 
-![Alt text](/images/raritan-px3-grafana-cloud-3.png)
-![Alt text](/images/raritan-px3-grafana-cloud-4.png)
+![Alt text](/images/raritan-px3-grafana-cloud/3.png)
+![Alt text](/images/raritan-px3-grafana-cloud/4.png)
 
 * Outlet 毎の消費電力
 
@@ -86,11 +86,11 @@ $1N/A
 $1
 ```
 
-![Alt text](/images/raritan-px3-grafana-cloud-5.png)
+![Alt text](/images/raritan-px3-grafana-cloud/5.png)
 
 ## 完成
 
-![Alt text](/images/raritan-px3-grafana-cloud-6.png)
+![Alt text](/images/raritan-px3-grafana-cloud/6.png)
 
 ## 参考
 
