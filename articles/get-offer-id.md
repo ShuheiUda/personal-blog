@@ -27,17 +27,17 @@ https://azure.microsoft.com/ja-jp/support/legal/offer-details
 
 Azure Portal では、サブスクリプションの概要ページや、プロパティのページに以下のようにプラン ID が記載されています。数が少なければポータルで一つずつ確認するのが最もお手軽です。
 
-![](/images/get-offerid/1.png)
+![](/images/get-offer-id/1.png)
 
-![](/images/get-offerid/2.png)
+![](/images/get-offer-id/2.png)
 
 なお、権限が不足していたり契約形態によっては、以下のように見えない・表示されない場合もあります。
 
 (権限が不足している例)
-![](/images/get-offerid/3.png)
+![](/images/get-offer-id/3.png)
 
 (個人で契約している CSP サブスクリプションの例)
-![](/images/get-offerid/4.png)
+![](/images/get-offer-id/4.png)
 
 裏取りはしていないですが、権限不足の場合には恐らくこの辺りに書いてある権限をつければ見えるようになるはず…。
 https://learn.microsoft.com/ja-jp/azure/cost-management-billing/manage/manage-billing-access#give-others-access-to-view-billing-information
