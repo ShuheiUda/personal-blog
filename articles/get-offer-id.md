@@ -1,5 +1,5 @@
 ---
-title: "Azure サブスクリプションの契約形態 (Offer ID) を API で取得したい"
+title: "Azure サブスクリプションの契約形態 (Offer ID) を確認したい"
 emoji: "☁️"
 type: "tech"
 topics:
