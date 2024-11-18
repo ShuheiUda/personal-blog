@@ -78,7 +78,7 @@ DNS Name が空ということで、"DomainControllerDnsNames is empty or not co
 
 https://techcommunity.microsoft.com/discussions/azureadvancedthreatprotection/microsoft-tri-sensor-error---defender-indentitiy-standalone/3966091
 
-ドメイン名を入力して [保存] したはずなのに、何度ページをリロードしても、何分待ってもドメイン名が保存されていなくて何でかなぁと半日くらい頭を悩ませたのですが、オチとしては [+ 追加] を押してから [保存] しないとダメだったという罠でした…。複数のフォレストやドメインを登録できるようにするためだとは思うのですが、この UI は知らないとハマる…。(あとでフィードバックします…。)
+ドメイン名を入力して [保存] したはずなのに、何度ページをリロードしても、何分待ってもドメイン名が保存されていなくて何でかなぁと半日くらい頭を悩ませたのですが、オチとしては [+ 追加] を押してから [保存] しないとダメだったという罠でした…。複数のフォレストやドメインを登録できるようにするためだとは思うのですが、この UI は知らないとハマる…。(一応、フィードバックしておきました…。)
 
 ![alt text](/images/defender-for-identity-sensor-troubleshooting/4.png)
 
