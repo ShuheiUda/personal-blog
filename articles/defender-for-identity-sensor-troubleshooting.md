@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Defender for Identity のセンサー サービスが起動に失敗した原因を調査する"
+title: "Microsoft Defender for Identity センサー関連のトラブルシューティング"
 emoji: "🔍"
 type: "tech"
 topics:
