@@ -18,14 +18,14 @@ publication_name: "microsoft"
 ## MDI センサーの大まかな仕組み
 Microsoft Defender for Identity (通称 MDI) では、Windows Server (2016 以降) にセンサーをインストールして、ADDS / ADFS / ADCS / Entra Connect から情報 (イベント ログやパケット) をクラウド側へと吸い上げます。センサーのセットアップは、[Defender Portal](https://security.microsoft.com/) の [設定] - [ID] - [全般] - [センサー] から、[センサーの追加] をクリックして、[インストーラーをダウンロード] し、[アクセス キー] を使って行います。
 
-![alt text](/images/defender-for-identity-sensor-troubleshooting/1.png)
+![Defender ポータルで MDI センサーをダウンロード画面のスクリーンショット](/images/defender-for-identity-sensor-troubleshooting/1.png)
 
 センサーのインストールが完了すると、Windows サービスとして以下の二つが追加されていることが確認できます。2 つとも実行中になっていることを確認しましょう。
 
 - Azure Advanced Threat Protection Sensor
 - Azure Advanced Threat Protection Sensor Updater
 
-![alt text](/images/defender-for-identity-sensor-troubleshooting/2.png)
+![Azure ATP Sensor のサービス 2 つを含む services.msc のスクリーンショット](/images/defender-for-identity-sensor-troubleshooting/2.png)
 
 ちなみに、インストールやサービスに関するログは以下のファイルに記録されています。
 
@@ -51,7 +51,7 @@ https://learn.microsoft.com/ja-jp/defender-for-identity/troubleshooting-using-lo
 
 複数の検証用テナントをセットアップしていた際に、別テナントでダウンロードしたインストーラーを使いまわそうとした結果、"センサーを登録できませんでした。アクセス キーをご確認ください。" というエラーに遭遇…。Defender Portal からダウンロードした ZIP ファイルの中に含まれる SensorInstallationConfiguration.json に、接続先の情報 (FQDN や Workspace ID) が含まれているため、別テナントのアクセス キーを入力しても当然弾かれるというだけのお話でした。
 
-![alt text](/images/defender-for-identity-sensor-troubleshooting/3.png)
+![インストール時のエラー画面のスクリーンショット](/images/defender-for-identity-sensor-troubleshooting/3.png)
 
 ### サービスが起動しない
 
@@ -80,7 +80,7 @@ https://techcommunity.microsoft.com/discussions/azureadvancedthreatprotection/mi
 
 ドメイン名を入力して [保存] したはずなのに、何度ページをリロードしても、何分待ってもドメイン名が保存されていなくて何でかなぁと半日くらい頭を悩ませたのですが、オチとしては [+ 追加] を押してから [保存] しないとダメだったという罠でした…。複数のフォレストやドメインを登録できるようにするためだとは思うのですが、この UI は知らないとハマる…。(一応、フィードバックしておきました…。)
 
-![alt text](/images/defender-for-identity-sensor-troubleshooting/4.png)
+![センサーの設定画面のスクリーンショット](/images/defender-for-identity-sensor-troubleshooting/4.png)
 
 
 その他にもあれこれトラブって苦労したので、気が向いたら時間のある時にまた追記します。
