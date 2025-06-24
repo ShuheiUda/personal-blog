@@ -101,6 +101,6 @@ $usersWithoutMFA | Format-Table -AutoSize
 
 と、ここまで書いていたら Entra Portal の [概要] - [推奨事項] にも同じような項目があり、[影響を受けたリソース] で対象ユーザーが見れることが判明しましたとさ。とほほ。
 
-![Entra ポータルの推奨事項の一覧](/images//check-admin-users-without-mfa/2.png)
+![Entra ポータルの推奨事項の一覧](/images/check-admin-users-without-mfa/2.png)
 
-![Entra ポータルの推奨事項で対象のユーザーが確認出来る画面](/images//check-admin-users-without-mfa/3.png)
+![Entra ポータルの推奨事項で対象のユーザーが確認出来る画面](/images/check-admin-users-without-mfa/3.png)
